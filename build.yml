@@ -1,8 +1,0 @@
-- name: Unzip project
-  run: unzip RafidEnterpriseSimpleBackupApp_DesignV2.zip
-
-- name: Build APK
-  run: |
-    cd RafidEnterpriseSimpleBackupApp
-    gradle assembleDebug
-``` [❶](code://python)
